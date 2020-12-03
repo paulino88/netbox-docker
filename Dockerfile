@@ -78,7 +78,6 @@ WORKDIR /opt/netbox/netbox
 RUN mkdir static && chmod -R g+w static media
 
 ENTRYPOINT [ "/opt/netbox/docker-entrypoint.sh" ]
-
 CMD ["gunicorn", "-c /etc/netbox/gunicorn_config.py", "netbox.wsgi"]
 
 LABEL ORIGINAL_TAG="" \
