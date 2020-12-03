@@ -1,8 +1,8 @@
-# - name: AMS 1
-#   slug: ams1
-#   region: Downtown
-#   status: active
-#   facility: Amsterdam 1
+#  - name: OTRJ-01
+#    slug: cemhs0b7
+#    region: Rio de Janeiro
+#    status: active
+#    facility: Rj01
 #   asn: 12345
 #   custom_fields:
 #     text_field: Description

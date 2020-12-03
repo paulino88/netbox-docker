@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"server": "172.16.0.99",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "netbox",
+				"database": "netbox",
+				"username": "netbox",
+				"password": "1RSgdZhGwhLOefCyI4dJtcEN0MfXqP"
+			}
+		]
+	}
+}

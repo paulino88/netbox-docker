@@ -35,7 +35,7 @@ services:
     depends_on:
     - netbox
     ports:
-    - 8080
+    - 8080:8080
     volumes:
     - netbox-static-files:/opt/netbox/netbox/static:ro
     - netbox-nginx-config:/etc/netbox-nginx/:ro
@@ -44,6 +44,8 @@ services:
   postgres:
     image: postgres:12-alpine
     env_file: env/postgres.env
+    ports:
+    - 5432:5432
     volumes:
     - netbox-postgres-data:/var/lib/postgresql/data
 
